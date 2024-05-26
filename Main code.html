@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="icon" href="icon.png"/>
+<title>Alisha's Portfolio</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color:#373343;">
+
+<!-- Navigation bar -->
+<div style="background-color:#1E1825; position:fixed; width:100%; top:0; padding-top:10px;">
+
+  <!--	Bar divided into two, to have text on the left most and right most side at the same time	-->
+  <div class="divide2" style="float:left; font-family:Courier;">
+	&nbsp; &nbsp; 
+	<img src="icon.png" height="40px" width="40px">
+	Alisha's Portfolio
+  </div>
+  <div class="divide2" style="float:right; text-align:right;">
+	<ul>
+		<li class="n"><a href="#Education">Education</a> &nbsp; &nbsp;</li>
+		<li class="n"><a href="#Skills">Skills</a> &nbsp; &nbsp;</li>
+		<li class="n"><a href="#Experience">Experience</a> &nbsp; &nbsp;</li>
+		<li class="n"><a href="#Project">Project</a> &nbsp; &nbsp;</li>
+		<li class="n"><a href="#Contact">Contact</a> &nbsp; &nbsp;</li>
+	</ul>
+  </div>
+</div>
+
+<!--	Title image and text	-->
+<div class="title">
+	<h1>Hi, I'm Alisha Masood</h1>
+	<h2>A web developer and a software Engineer</h2>
+	<br><br>
+	<h3>Working with determination and consistancy</h3>
+	<p> <a href="https://github.com/AlishaM27" target="_BLANK">Github</a> &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://pk.linkedin.com/in/alisha-masood-7b0513297" target="_BLANK">LinkedIn</a></p>
+</div>
+
+<hr>
+<div class="info" id="Education">
+	<h1>Education</h1>
+	<table class="even">
+		<tr>
+			<th>Bachelors</th>
+			<th>Intermediate</th>
+			<th>Matric</th>
+		</tr>
+		<tr>
+			<td> University of Management and Technology</td>
+			<td> Punjab Group of Colleges</td>
+			<td> Pakistan International School, Riyadh</td>
+		</tr>
+		<tr>
+			<td> Computer Science BS(CS)</td>
+			<td> ICS (Physics) </td>
+			<td> Science (Computer Science, Physics, Chemistry) </td>
+		</tr>
+		<tr>
+			<td> (2021-2025)</td>
+			<td> (2019-2021)</td>
+			<td> (2016-2018)</td>
+		</tr>
+
+	</table>
+</div>
+
+<hr>
+<div class="info" id="Skills">
+	<h1>Skills</h1>
+	<ul style="list-style-position:inside;">
+		<li>I can code in computer languages such as C++, Python</li>
+		<li>Can create a website using html, css, bootstrap</li>
+		<li>Can perform Data Mining</li>
+	</ul>
+</div>
+
+<hr>
+<div class="info" id="Experience">
+	<h1>Experience</h1>
+	<ul style="list-style-position:inside;">
+		<li>Achieved 3.96 SGPA in 1st semester, gaining the Dean's Merit Award</li>
+		<li>Achieved 3.95 SGPA in 4th semester, gaining the Dean's Merit Award</li>
+	</ul>
+</div>
+
+<hr>
+<div class="info" id="Project">
+	<h1>Project</h1>
+	<table class="table-dark table-hover table-bordered proj">
+	<tr>
+		<th>Project Name</th>
+		<th>Project Description</th>
+	</tr>
+	<tr>
+		<td>Ludo Game</td>
+		<td>Programmed a Player vs Player game using OOP concepts in C++</td>
+	</tr>
+	<tr>
+		<td>IR Remote Control Car</td>
+		<td>Used Arduino to implement DLD knowledge and constructed a working model of a car</td>
+	</tr>
+	<tr>
+		<td>Research in Weather Forecasting</td>
+		<td>Used WEKA to perform Data Mining techniques such as Decision Trees</td>
+	</tr>
+	</table>
+</div>
+
+<hr>
+<div class="info" id="Contact">
+	<h1>Contact Form</h1>
+	<table>
+	<form method="get" action="">
+	<tr>
+		<td>Name:</td>
+		<td><input type="text" id="name" size="50"/></td>
+	</tr>
+	<tr>
+		<td>Email:</td>
+		<td><input type="email" id="email" size="50"/></td>
+	</tr>
+	<tr>
+		<td>Message:</td>
+		<td><textarea rows="5" cols="50"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align:right;"><input type="submit" id="submit"></td>
+	</tr>
+	</form>
+	</table>
+</div>
+
+<!--	Fixes the redirection scroll issue where any in-page anchor's redirect gets hidden under navbar	-->
+<script>
+	window.addEventListener('hashchange', function() {
+		window.scrollBy(0, -40);
+	});
+</script>
+</body>
+</html>
